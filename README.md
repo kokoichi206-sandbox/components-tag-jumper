@@ -2,10 +2,6 @@
 
 This VSCode extension allows you to navigate to the code definition of tags named in kebab-case based on the directory structure.
 
-## Features
-
-Definition of the tag
-
 ## Usage
 
 ### 0. Requiring folder structures and registered tag names
@@ -33,7 +29,7 @@ Tag names
 
 ### 1. Activate components-tag-jumper
 
-Just adding this extension.
+Just adding this extension to your VSCode.
 
 ## Limitations
 
