@@ -2,7 +2,7 @@
   "name": "components-tag-jumper",
   "displayName": "components-tag-jumper",
   "description": "",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "engines": {
     "vscode": "^1.82.0"
   },
@@ -10,7 +10,7 @@
     "Other"
   ],
   "license": "MIT",
-	"publisher": "kokoichi206",
+  "publisher": "kokoichi206",
   "repository": {
     "type": "git",
     "url": "https://github.com/kokoichi206-sandbox/components-tag-jumper"
