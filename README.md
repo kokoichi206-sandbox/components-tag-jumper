@@ -35,7 +35,6 @@ Just adding this extension to your VSCode.
 
 - Supporting only Vue projects (specifically .vue files)
 - Requiring kebab-case tag names and camelCase filenames
-- under
 
 ## License
 
