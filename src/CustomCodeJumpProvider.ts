@@ -43,13 +43,17 @@ export class CustomCodeJumpProvider implements vscode.DefinitionProvider {
       `**/*.vue`,
       "**/node_modules/**"
     );
+    let t: vscode.Uri | undefined;
     for (const v of files) {
       const path = v.path;
-      if (path.includes(componentName) && path.includes(folderName)) {
-        return v;
+      if (path.includes(componentName)) {
+        if (path.includes(`/${folderName}/`)) {
+          return v;
+        } else if (path.includes(folderName)) {
+          t = v;
+        }
       }
     }
-
-    return;
+    return t;
   }
 }
